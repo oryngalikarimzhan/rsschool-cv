@@ -1,6 +1,6 @@
 # Oryngali Karimzhan
 
-![ava](/ava.png)
+![ava](/images/ava.png)
 
 ---
 
@@ -64,7 +64,7 @@ and feel like its mine. That why i keep studying. And I am convinced that i fina
 
 ## Codewars code example:
 
-![kata](/kata.png)
+![kata](/images/kata.png)
 
 **Instruction:**
 It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
