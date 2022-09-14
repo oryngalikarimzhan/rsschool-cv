@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #8e8e8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: rgb(220, 220, 220);
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0, 0, 0, 0.1);
+    border-left: 50px solid rgb(220, 220, 220);;
+    border-right: 50px solid rgb(220, 220, 220);;
+}
+.container .top {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+}
+.container .top .image-box {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .top .image-box .box {
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+.container .top .image-box .box img {
+    width: 100%;  
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.container .top .profile-text {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profile-text h3 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+.container .top .profile-text h3 span {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
+.container .content-box {
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .content-box h3 {
+    border-left: 4px solid #a60000;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.container .content-box ul {
+    position: relative;
+    margin: 10px 0;
+}
+.container .content-box ul li {
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    color: #333;
+    cursor: pointer;
+    display: flex; 
+}
+.container .content-box ul li ion-icon {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #004b80;
+}
+.language li, .skills li {
+    flex-direction: column;
+}
+.language li span, .skills li span {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+.language .percent, .skills .percent {
+    position: relative;
+    width: 90%;
+    background: #ffffff;
+    height: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: block;
+    overflow: hidden;
+}
+.language .percent p, .skills .percent p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #004b80;
+}
+.eng {
+    width: 65%;
+}
+.rus {
+    width: 90%;
+}
+.kz {
+    width: 100%;
+}
+.kr {
+    width: 30%;
+}
+.java {
+    width: 65%;
+}
+.spring {
+    width: 50%;
+}
+.html {
+    width: 60%;
+}
+.css {
+    width: 50%;
+}
+.sql {
+    width: 60%;
+}
+.js {
+    width: 30%;
+}
+p {
+    font-weight: 300;
+}
+.right-side {
+    min-width: 400px;
+    padding-left: 40px;
+}
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .course {
+    font-size: 1.2em;
+    min-width: 150px;
+    color: #004b80;
+    
+}
+.about .box .course h6 {
+    color: #004b80;
+    font-weight: 400
+}
+.about .box .course-projects {
+    min-width: 400px;
+    padding-right: 10px;
+}
+.about .box .course-projects h4 {
+    font-weight: 500;
+}
+.about .box .course-projects .project {
+    margin-bottom: 10px;
+}
