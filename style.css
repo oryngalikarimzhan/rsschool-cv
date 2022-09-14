@@ -115,7 +115,7 @@ body {
 }
 .language .percent, .skills .percent {
     position: relative;
-    width: 100%;
+    width: 90%;
     background: #ffffff;
     height: 6px;
     margin-top: 15px;
@@ -123,12 +123,42 @@ body {
     display: block;
     overflow: hidden;
 }
-.language .percent div, .skills .percent div {
+.language .percent p, .skills .percent p {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     background: #004b80;
+}
+.eng {
+    width: 65%;
+}
+.rus {
+    width: 90%;
+}
+.kz {
+    width: 100%;
+}
+.kr {
+    width: 30%;
+}
+.java {
+    width: 65%;
+}
+.spring {
+    width: 50%;
+}
+.html {
+    width: 60%;
+}
+.css {
+    width: 50%;
+}
+.sql {
+    width: 60%;
+}
+.js {
+    width: 30%;
 }
 p {
     font-weight: 300;
